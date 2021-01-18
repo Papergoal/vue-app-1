@@ -1,19 +1,24 @@
-﻿<html lang="en">
+﻿<html lang="fr">
 <head>
     <!-- Responsive + Encoding Meta Tag -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet -->
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- Vue and Custom JavaScript -->
+    <script src="script.js"></script>
     <!-- Title -->
     <title>Vue.JS API Call</title>
 </head>
 <body>
     <div id="main">
-        <h1> Calcul des distances entre les villes</h1>
-
+        <h1> Calcul des distances entre les villes </h1>
+        <input type="text" id="ville1" @click="fetchAPIData">Première ville</input>
+        <input type="text" id="ville2" @click="fetchAPIData">Deuxième ville</input>
+        <br />
+        <br />
+        <br />
+        <button type="button" id="get-distance" @click="fetchAPIData">Calculer la distance</button>
     </div>
 </body>
-<!-- Vue and Custom JavaScript -->
-<script src="script.js"></script>
 </html>
