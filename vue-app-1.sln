@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "vue-app-1", "vue-app-1.njsproj", "{C362DA3E-F90E-47F2-81D9-46AE8C85A30E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C362DA3E-F90E-47F2-81D9-46AE8C85A30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C362DA3E-F90E-47F2-81D9-46AE8C85A30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C362DA3E-F90E-47F2-81D9-46AE8C85A30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C362DA3E-F90E-47F2-81D9-46AE8C85A30E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7E5E37D-85B2-4DBD-B8CE-82A94B2009C1}
+	EndGlobalSection
+EndGlobal

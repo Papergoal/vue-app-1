@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="script.js"></script>
+    <title>vue-app-1</title>
+</head>
+<body>
+    <div id="main">
+        <h1> Calcul des distances entre les villes </h1>
+        <input type="text" id="ville1" @click="fetchAPIData">Première ville</input>
+        <input type="text" id="ville2" @click="fetchAPIData">Deuxième ville</input>
+        <br />
+        <br />
+        <br />
+        <button type="button" id="get-distance" @click="fetchAPIData()">Calculer la distance</button>
+    </div>
+</body>
+
+</html>
